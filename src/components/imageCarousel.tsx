@@ -34,6 +34,7 @@ export const ImageCarousel = () => {
     }, 3000); 
 
     return () => clearInterval(autoPlayInterval); 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [activeIndex]);
 
   const handleMouseDown = (e: { pageX: number; }) => {

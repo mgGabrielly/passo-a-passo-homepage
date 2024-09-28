@@ -6,7 +6,7 @@ interface CardProps {
 
 export function Card({ icon, title, description }: CardProps) {
   return (
-    <div className="p-6"> {/* Remove shadow and border */}
+    <div className="p-6"> 
       <div className="flex items-start space-x-4">
         <img src={icon} alt={title} className="w-12 h-12" />
         <div className="text-left">

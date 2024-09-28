@@ -84,26 +84,19 @@ export function Homepage() {
 
         <section id="depoimentos" className="mb-[95px] md:mb-[70px] pt-4">
           <div className="container mx-auto">
-            <h2 className="text-2xl font-semibold text-center mb-8">Depoimentos</h2> {/* Título fora do azul */}
+            <h2 className="text-2xl font-semibold text-center mb-8">Depoimentos</h2> 
           </div>
           <div className="w-full bg-blue_p">
             <div className="container mx-auto max-w-6xl px-6 py-8">
-              <TestimonialCarousel testimonials={testimonials} />
+              <TestimonialCarousel 
+                testimonials={testimonials} 
+              />
             </div>
           </div>
         </section>
 
-        {/* <section id="depoimentos" className="mb-[95px] md:mb-[70px] pt-4">
-          <div className="container mx-auto">
-            <h2 className="text-2xl font-semibold text-center mb-8">Depoimentos</h2>
-            <TestimonialCarousel testimonials={testimonials} />
-          </div>
-        </section> */}
-
         <section className="mb-[95px] md:mb-[70px] pt-4">
           <div className="max-w-5xl mx-auto px-4 md:px-8 flex flex-col md:flex-row">
-            
-            {/* Coluna do título FAQ */}
             <div className="md:w-1/3 mb-6 md:mb-0 px-4 md:px-8">
               <h2 className="text-2xl font-bold text-left md:text-left mb-4 text-orange-600">
                 FAQ
@@ -112,12 +105,14 @@ export function Homepage() {
                 Perguntas e respostas mais frequentes
               </h3>
             </div>
-        
-            {/* Coluna das perguntas e respostas */}
             <div className="md:w-2/3 space-y-4">
-              <div className="px-4 md:px-8"> {/* Aumenta o espaçamento lateral para telas menores */}
+              <div className="px-4 md:px-8"> 
                 {faqItems.map((item, index) => (
-                  <FAQItem key={index} question={item.question} answer={item.answer} />
+                  <FAQItem 
+                    key={index} 
+                    question={item.question} 
+                    answer={item.answer}
+                  />
                 ))}
               </div>
             </div>
