@@ -45,8 +45,8 @@ export function Homepage() {
           </div>
         </section>
 
-        <section className="mb-[95px] md:mb-[70px] pt-4">
-          <h2 className="text-2xl font-semibold text-center mb-8">Por que Escolher o Reforço Passo a Passo?</h2>
+        <section className="mb-[95px] md:mb-[70px] pt-5">
+          <h2 className="text-2xl font-semibold text-center mb-8 px-4">Por que Escolher o Reforço Passo a Passo?</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto px-4">
             {positivePoints.map((item, index) => (
             <Card
