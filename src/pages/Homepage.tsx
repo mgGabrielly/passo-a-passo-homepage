@@ -15,6 +15,8 @@ import { Card } from "../components/positiveCard";
 import { ImageCarousel } from "../components/imageCarousel";
 import { FAQItem } from "../components/questionFaq";
 import { faqItems } from "../data/questionsFaqData";
+import { teamMembers } from "../data/membersData";
+import { TeamCard } from "../components/memberCard";
 
 export function Homepage() {
   return (
@@ -42,6 +44,20 @@ export function Homepage() {
             <div className="flex justify-center space-y-4">
               <ImageCarousel />
             </div>
+          </div>
+        </section>
+
+        <section id="equipe" className="mb-[95px] md:mb-[70px] pt-5">
+          <h2 className="text-2xl font-semibold text-center mb-[80px]">Nossa Equipe</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-16 max-w-5xl mx-auto px-4">
+            {teamMembers.map((member, index) => (
+              <TeamCard 
+                key={index} 
+                name={member.name} 
+                role={member.role} 
+                image={member.image} 
+              />
+            ))}
           </div>
         </section>
 
