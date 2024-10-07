@@ -36,8 +36,8 @@ export function Header() {
           <div
             className="fixed inset-0 bg-black bg-opacity-50 z-40"
             onClick={() => setIsOpen(false)}
-          />
-          <nav className="absolute top-16 left-0 w-full bg-blue_p2 text-white flex flex-col space-y-4 p-4 md:hidden z-50">
+          ></div>
+          <nav className="fixed top-16 left-0 w-full bg-blue_p2 text-white flex flex-col space-y-4 p-4 z-50">
             <a href="#sobre" onClick={() => setIsOpen(false)} className="hover:text-gray-200">Sobre</a>
             <a href="#equipe" onClick={() => setIsOpen(false)} className="hover:text-gray-200">Equipe</a>
             <a href="#infraestrutura" onClick={() => setIsOpen(false)} className="hover:text-gray-200">Infraestrutura</a>
