@@ -49,14 +49,22 @@ export function Homepage() {
 
         <section id="equipe" className="mb-[95px] md:mb-[70px] pt-5">
           <h2 className="text-2xl font-semibold text-center mb-[80px]">Nossa Equipe</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-16 max-w-5xl mx-auto px-4">
+          <div className="max-w-full mx-auto px-2 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-y-20 sm:gap-y-18 md:gap-y-16 lg:gap-y-10 gap-x-6">
             {teamMembers.map((member, index) => (
-              <TeamCard 
-                key={index} 
-                name={member.name} 
-                role={member.role} 
-                image={member.image} 
-              />
+              <div
+                key={index}
+                className={`flex flex-col items-center ${
+                  index === 2 ? 'sm:col-span-2' : ''
+                }`}
+              >
+                <div className="max-w-80 w-full">
+                  <TeamCard 
+                    name={member.name} 
+                    role={member.role} 
+                    image={member.image} 
+                  />
+                </div>
+              </div>
             ))}
           </div>
         </section>
