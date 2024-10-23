@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import image1 from "../assets/espaco-convivencia.png";
-import image2 from "../assets/sala-de-aula.png";
-import image3 from "../assets/sala-professores.png";
+import image1 from "../assets/carrossel1.jpg";
+import image2 from "../assets/conquistas.png";
+import image3 from "../assets/carrossel3.jpg";
 import { useRef, useState, useEffect } from 'react';
 
 export const ImageCarousel = () => {

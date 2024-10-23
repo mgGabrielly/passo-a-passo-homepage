@@ -1,4 +1,5 @@
-import imageBackground from '../assets/image-hero.jpg';
+// import imageBackground from '../assets/image-hero.jpg';
+import imageBackground from '../assets/background.jpg';
 
 export function Hero() {
   return (
