@@ -6,7 +6,7 @@ import  memberFive  from "../assets/teacher.jpg";
 
 export const teamMembers = [
     { 
-        name: 'Wilma Siqueira', 
+        name: 'Wylma Siqueira', 
         role: 'Professora e Pedagoda', 
         image: memberOne 
     },
