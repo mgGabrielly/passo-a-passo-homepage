@@ -5,9 +5,9 @@ export const testimonials = [
     relationship: 'Mãe de João Lucas, 3º ano',
   },
   {
-    text: 'As atividades são divertidas e o apoio dos professores é incrível!',
-    author: 'Ciclana',
-    relationship: 'Mãe de Ciclano, 7 anos',
+    text: 'Minha experiência no reforço Passo a Passo começou bem engraçada e com um pedido de socorro... kkkk Sou professora também, mas faz um bom tempo que não alfabetizo mais e estava com muita dificuldade para auxiliar meu filho nas atividades de casa. Na iniciação da leitura das palavras, estava utilizando um método antigo e ultrapassado. Fomos muito bem recebidos e há dois anos que o reforço nos ajuda muito e ajuda meu filho no seu desenvolvimento. Ler tudo... o reforço é show! Obrigada meninas!',
+    author: 'Michele Gomes',
+    relationship: 'Mãe de João Vinícius, 1º ano',
   },
   {
     text: '2O Reforço Passo a Passo transformou a experiência escolar do meu filho! Ele está se sentindo mais confiante e motivado a aprender.',
