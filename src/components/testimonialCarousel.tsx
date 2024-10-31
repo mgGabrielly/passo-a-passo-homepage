@@ -37,7 +37,7 @@ export const TestimonialCarousel = ({ testimonials }: TestimonialCarouselProps) 
         });
         setActiveIndex(nextIndex);
       }
-    }, 4000);
+    }, 10000);
 
     return () => clearInterval(autoPlayInterval);
   }, [activeIndex, testimonials.length]);
