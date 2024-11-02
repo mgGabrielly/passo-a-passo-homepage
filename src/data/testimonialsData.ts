@@ -10,9 +10,9 @@ export const testimonials = [
     relationship: 'Mãe de João Vinícius, 1º ano',
   },
   {
-    text: '2O Reforço Passo a Passo transformou a experiência escolar do meu filho! Ele está se sentindo mais confiante e motivado a aprender.',
+    text: 'Meu filho começou no reforço Passo a Passo quando iria para o 2º ano na escola e não sabia nem as vogais. E olha que, desde pequeno, ele sempre frequentou outros reforços. Quando procurei o reforço Passo a Passo para matriculá-lo, contei a situação do meu filho, e foi então que o reforço me apresentou a proposta de alfabetizá-lo, começando pelas vogais. Com essa proposta, tudo deu certo; graças ao reforço, hoje meu filho lê tudo. Sempre digo que quem alfabetizou o Bernardo foi o reforço Passo a Passo, e eu agradeço muito por isso. Atualmente, tanto Bernardo quanto Valentina estão no reforço, e estamos todos muito satisfeitos. Se Deus quiser, eles sempre continuarão fazendo parte do reforço. Tudo é muito organizado, as professoras são sempre atenciosas, e a experiência tem sido ótima. Só tenho a agradecer!',
     author: 'Fulana 2',
-    relationship: 'Mãe de Fulano, 8 anos',
+    relationship: 'Mãe de Bernardo e Valentina, 3º ano e Infantil V',
   },
   {
     text: '2As atividades são divertidas e o apoio dos professores é incrível!',
