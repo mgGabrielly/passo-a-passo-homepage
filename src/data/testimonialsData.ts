@@ -14,9 +14,4 @@ export const testimonials = [
     author: 'Renata',
     relationship: 'Mãe de Bernardo e Valentina, 3º ano e Infantil V',
   },
-  {
-    text: '2As atividades são divertidas e o apoio dos professores é incrível!',
-    author: 'Ciclana 2',
-    relationship: 'Mãe de Ciclano, 7 anos',
-  },
 ];
