@@ -2,7 +2,7 @@ import  memberOne  from "../assets/prof_wilma.png";
 import  memberTwo  from "../assets/prof_cida.png";
 import  memberThree  from "../assets/prof_maria.png";
 import  memberFour  from "../assets/prof_marielly.png";
-import  memberFive  from "../assets/teacher.jpg";
+import  memberFive  from "../assets/psic_aryella.png";
 
 export const teamMembers = [
     { 
