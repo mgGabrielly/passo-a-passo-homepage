@@ -33,12 +33,10 @@ export function Homepage() {
             <div className="space-y-4">
               <p className="text-black_p">
                 O <span className="font-bold text-blue_p">Passo a Passo</span> foi criado com a missão de oferecer um aprendizado
-                significativo e acolhedor. Nossa história começou com a paixão por educar e apoiar crianças, ajudando-as a
-                desenvolver suas habilidades e superar desafios acadêmicos.
+                significativo e acolhedor. Nossa história começou logo após a tão sonhada aposentadoria e junto com ela iniciava a pandemia do COVID-19.
               </p>
-              <p className="text-black_p">
-                Desde então, temos nos dedicado a criar um ambiente que promove a curiosidade e a confiança, onde cada aluno pode
-                aprender no seu próprio ritmo. Com uma abordagem personalizada, buscamos construir, passo a passo, o conhecimento e a autoestima dos nossos alunos.
+              <p className="text-black_p"> 
+                As mães nos procuravam em busca de acompanhamento pedagógico para as aulas remotas, e nós oferecíamos o suporte necessário para as crianças, ajudando-as a superar os desafios e desenvolver suas habilidades. Desde então, com uma abordagem personalizada, buscamos construir, passo a passo, o conhecimento e a autoestima de nossos alunos.
               </p>
             </div>
             <div className="flex justify-center space-y-4">
